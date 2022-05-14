@@ -41,7 +41,7 @@ class MyServerCallbacks: public BLEServerCallbacks {
     void onConnect(BLEServer* pServer) {
       deviceConnected = true;
       
- pServer->getAdvertising()->start();
+
  
     };
 
